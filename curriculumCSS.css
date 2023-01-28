@@ -1,0 +1,79 @@
+/* CSS document */
+/* Author: Oriol Campos Lara */
+
+body{ 
+	display:flex; 
+	flex-direction:column; 
+	min-height: 100vh; 
+	margin:0;
+}
+
+h2 {
+	font-size: 30 px;
+	font-family: arial;
+}	
+
+h1 {
+	font-size: 40px;
+	font-family: arial;
+	text-align: center;
+	color: white;
+}
+
+header{
+	background-color: black;
+	min-height: 50px;
+}
+
+.second-column{
+	float: left;
+	padding: 10px;
+	flex: 1;
+	text-align: center;
+	border-style: solid;
+	border-width: 0px 20px 0px 0px;
+	border-color: black;
+}
+
+.first-column{
+	float: left;
+	padding: 10px;
+	width: 15%;
+	border-style: solid;
+	border-width: 0px 10px 0px 20px;
+	border-color: black;
+}
+
+footer{
+	background-color: black;
+	color: white; 
+	text-align: center;
+	vertical-align: middle;
+	min-height: 50px;
+	line-height: 50px;
+}
+
+a:hover{
+	color:white;
+	background-color: black;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+article{
+	display:flex; 
+	flex-direction: row; 
+	flex:1;
+}
+
+img {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 5px;
+	background-color: gold;	
+	width: 75px;
+	margin-left: 65px;
+}
